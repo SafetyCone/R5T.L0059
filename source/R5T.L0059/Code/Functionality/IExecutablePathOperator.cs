@@ -10,7 +10,7 @@ namespace R5T.L0059
         L0060.IExecutablePathOperator
     {
 #pragma warning disable IDE1006 // Naming Styles
-        public L0054.IExecutablePathOperator _Platform => L0054.ExecutablePathOperator.Instance;
+        public new L0054.IExecutablePathOperator _Platform => L0054.ExecutablePathOperator.Instance;
 #pragma warning restore IDE1006 // Naming Styles
     }
 }
